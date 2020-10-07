@@ -1,0 +1,280 @@
+*{
+
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+
+    background-color:#CFD0CB;
+    color: white;
+
+}
+.navbar{
+   
+    background-color:rgb(143, 143, 125);
+    text-align: center;
+    justify-content: center;
+    
+}
+.navbar:hover{
+
+    box-shadow: 4px 5px 5px gray;
+}
+
+  
+    
+
+.navbar-logo img{
+
+    width:70px;
+    height:70px;
+    border-radius: 15px;
+   
+    
+}
+.navbar-logo img:hover{
+    box-shadow: 4px 5px 6px black;
+}
+
+.navbar-title{
+
+text-align: center;
+font-family: 'Pacifico', cursive;
+
+}
+.navbar-title h3:hover{
+   text-shadow: 5px 5px 5px black;
+}
+.navbar-desc a{
+ text-align: center;
+ text-transform:capitalize;
+ text-decoration: none;
+ background-color: transparent;
+ display: block;
+ padding: 10px;
+ 
+margin:10px;
+color: white;
+
+
+
+}
+.navbar-desc a:hover{
+    background-color: gray;
+    box-shadow: 5px 5px 6px black;
+    border-radius: 15px;
+    
+}
+[class*="col-"] {
+    float: left;
+    padding: 10px;
+  }
+
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+
+    .navbar::after {
+        content: "";
+        clear: both;
+        display:table;
+      }
+      .profile{
+
+        background-color: ghostwhite;
+        text-align: center;
+        justify-content: center;
+        position: relative;
+        padding: 100px 10px;
+      }
+      .profile .img{
+        width: 85px;
+        height: 85px;
+        position: absolute;
+        right: 60px;
+         transition: transform 2s;
+        
+       
+      }
+      .profile .img:hover{
+
+        transform: rotate(360deg);
+        border-radius: 20px;
+        
+      }
+
+     .main h2{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    color:black;
+    margin-top: 125px;
+    
+   
+   
+
+  }
+  .main p{
+    font-size: 25px;
+    color: cadetblue;
+    font-family: 'Sansita Swashed', cursive;
+    
+  }
+  .profile .img1{
+    width: 85px;
+    height: 85px;
+    transition: transform 2s;
+    position: absolute;
+    left:60px;
+    
+   
+    
+    
+   
+  }
+  .profile .img1:hover{
+
+    transform: rotate(360deg);
+    border-radius: 20px;
+  }
+
+  .main::after {
+    content: "";
+    clear: both;
+    display:table;
+  }
+  /*main end*/
+  .full-card{
+
+margin: 10px;
+padding: 10px;
+
+
+  }
+
+  .card{
+background-color:#969C8C;
+border: 3px solid grey;
+text-align: center;
+border-radius: 20px;
+margin:5px;
+height: 700px;
+
+  }
+  .card:hover{
+
+    box-shadow: 6px 6px 6px 6px gray;
+  }
+  .card-img img{
+
+width: 70px;
+height: 70px;
+border-radius: 15px;
+
+  }
+  .card-title h3{
+
+    font-family: 'Pacifico', cursive;
+  }
+.card-desc strong{
+    font-family: 'Sansita Swashed', cursive;
+
+
+
+}
+.card-desc p{
+
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.full-card::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+.footer{
+
+margin: 20px;
+padding: 20px;
+background-color:gray;
+border-radius: 15px;
+
+  }
+
+
+
+
+.footer::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.about-me{
+  text-align: center;
+  background-color: wheat;
+  padding: 20px;
+
+
+
+}
+.about-img img{
+
+  width:400px;
+  height:400px;
+  border: 3px solid white;
+  border-radius: 15px;
+ 
+
+
+}
+.about-desc{
+
+background-color: gray;
+border-radius: 15px;
+height: 400px;
+
+
+}
+.about-me::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.end{
+text-align: center;
+
+}
+.icon a img{
+  background-color: teal;
+
+  width: 70px;
+  height: 70px;
+  border-radius: 15px;
+  margin: 15px;
+  
+}
+.icon a img:hover{
+
+background-color: teal;
+box-shadow: 0px 4px 6px 4px red;
+
+}
+.desc a{
+
+font-size: 30px;
+margin: 20px;
+
+padding:10px;
+}
+.desc a:hover{
+box-shadow: 0px 4px 6px 4px gray;
+
+}
+.end::after {
+  content: "";
+  clear: both;
+  display: table;
+}
